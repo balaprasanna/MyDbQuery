@@ -1,0 +1,1 @@
+select CustomerID as CustomerID, Customers.Country As Country from Customers

@@ -1,0 +1,1 @@
+select Country, count(Country) from Customers where Country in ('UK','Mexico','Germany') group by Country

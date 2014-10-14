@@ -1,0 +1,1 @@
+select Customers.ContactName, count(Customers.ContactTitle) from Customers where ContactTitle like 'Own%' group by ContactName
